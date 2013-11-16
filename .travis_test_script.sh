@@ -8,7 +8,7 @@ ls ..
 
 #if $(grep -v mail stdout.log | grep -q ERROR)
 #then
-#exit 1
+exit 1
 #else
-exit 0
+#exit 0
 #fi
